@@ -8,6 +8,12 @@ body {
     margin: 60px 277px;
 }
 
+a {
+    display: block;
+    text-align: center;
+    color: var(--purple-color);
+}
+
 h1, h2, h3 {
 text-align: center;
 margin: 0;
@@ -48,4 +54,24 @@ border-radius: 4px;
 .about-me-link {
     color: var(--purple-color);
     border: 1px solid var(--purple-color);
+}
+
+.description-about-me {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.description-about-me p {
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background: var(--paragrapgh-bg);
+}
+
+.email-link {
+    font-size: 28px;
+    text-decoration: none;
 }
